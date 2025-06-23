@@ -4,7 +4,9 @@ import java.util.Scanner;
 public class basic_arr {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a[] = new int[5];
+        System.out.printf("Enter the size of the array: ");
+        int x = sc.nextInt();
+        int a[] = new int[x];
         System.out.printf("Enter the 5 elements: ");
         for (int i = 0; i < a.length; i++) {
             a[i] = sc.nextInt();
