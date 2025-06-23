@@ -4,6 +4,7 @@ public class while_loop {
         int i = 1;
         while (i < x) {
             System.out.printf("%d While Loop%n", i);
+            i++;
         }
     }
 }
