@@ -1,4 +1,4 @@
-import java.util.*;
+
 import java.util.Scanner;
 
 public class multi_if_else {
@@ -17,6 +17,7 @@ public class multi_if_else {
         } else {
             System.out.printf("The Number is odd : %d", x);
         }
+        sc.close();
     }
 
 }
