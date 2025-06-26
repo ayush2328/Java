@@ -30,6 +30,6 @@ public class switch_case {
             default:
                 System.out.println("Invalid Value.");
         }
-
+        sc.close();
     }
 }
