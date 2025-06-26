@@ -1,4 +1,3 @@
-import java.util.*;
 import java.util.Scanner;
 
 public class basic_arr {
@@ -16,5 +15,6 @@ public class basic_arr {
             System.out.printf("%d ", j);
         }
         System.out.println();
+        sc.close();
     }
 }
