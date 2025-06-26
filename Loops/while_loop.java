@@ -10,5 +10,6 @@ public class while_loop {
             System.out.printf("%d) While Loop%n", i);
             i++;
         }
+        sc.close();
     }
 }

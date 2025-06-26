@@ -1,4 +1,3 @@
-import java.util.*;
 import java.util.Scanner;
 
 public class for_each {
@@ -9,5 +8,6 @@ public class for_each {
             System.out.printf("%d ", i);
         }
         System.out.println();
+        sc.close();
     }
 }

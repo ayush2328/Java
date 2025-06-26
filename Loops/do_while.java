@@ -10,5 +10,6 @@ public class do_while {
             System.out.printf("%d) Do While Loop.%n", i);
             i++;
         } while (i <= x);
+        sc.close();
     }
 }
