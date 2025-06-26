@@ -12,6 +12,6 @@ public class if_else {
         else
             System.out.printf("%d is odd number", x);
         System.out.println();
-
+        sc.close();
     }
 }
