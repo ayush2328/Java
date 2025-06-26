@@ -19,7 +19,7 @@ public class switch_case {
                 System.out.println("Wednesday.");
                 break;
             case 5:
-                System.out.println("Thrusday.");
+                System.out.println("Thursday.");
                 break;
             case 6:
                 System.out.println("Friday.");
@@ -28,7 +28,7 @@ public class switch_case {
                 System.out.println("Saturday.");
                 break;
             default:
-                System.out.println("Invaild Value.");
+                System.out.println("Invalid Value.");
         }
 
     }
