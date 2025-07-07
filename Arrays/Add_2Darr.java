@@ -38,7 +38,7 @@ public class Add_2Darr extends make_2Darr {
         super(sc);
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("This is First Matrix: ");
         Add_2Darr obj1 = new Add_2Darr(sc);
