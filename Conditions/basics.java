@@ -14,6 +14,6 @@ public class basics {
         }
         System.out.print("Your Updated Salary is : ");
         System.out.println(salary);
-
+        sc.close();
     }
 }
