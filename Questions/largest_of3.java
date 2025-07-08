@@ -15,7 +15,12 @@ public class largest_of3 {
                 System.out.printf("%d is largest.", c);
             }
         } else {
-            System.out.printf("%d is largest.", b);
+            if (b > c) {
+                System.out.printf("%d is largest.", b);
+            } else {
+                System.out.printf("%d is largest.", c);
+            }
+
         }
         sc.close();
     }
