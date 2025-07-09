@@ -9,10 +9,17 @@ public class Q1 {
         int n = sc.nextInt();
 
         // Print n "*" in single row
+        // for (int i = 0; i < n; i++) {
+        // System.out.printf("* ");
+        // }
+
+        // Print Square of Star..
         for (int i = 0; i < n; i++) {
-            System.out.printf("* ");
+            for (int j = 0; j < n; j++) {
+                System.out.printf("* ");
+            }
+            System.out.println();
         }
-        System.out.println();
         sc.close();
     }
 }
