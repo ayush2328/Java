@@ -14,7 +14,7 @@ public class Ques2 {
         // }
 
         // Logical operator in if else loop
-        if (n % 2 == 0 && n % 3 == 0) {
+        if (n % 2 == 0 || n % 3 == 0) {
             System.out.println("Divisible");
         } else {
             System.out.println("Not Divisible.");
