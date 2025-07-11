@@ -22,12 +22,23 @@ public class Q1 {
         // }
 
         // right angle triangle
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                System.out.printf("* ");
+        // for (int i = 0; i < n; i++) {
+        // for (int j = 0; j < ì̀; j++) {
+        // System.out.printf("* ");
+        // }
+        // System.out.println();
+        // }
+
+        // Unique number triangle
+        int k = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.printf("%d ", k);
+                k++;
             }
             System.out.println();
         }
+
         sc.close();
     }
 }
