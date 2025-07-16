@@ -49,6 +49,16 @@ public class Into {
             sum += dynaArr[i];
         }
         System.out.printf("\nSum of an elements : %d", sum);
+
+        // Max element of an array
+        int max = dynaArr[0];
+        for (int i = 1; i < dynaArr.length; i++) {
+            if (dynaArr[i] > max) {
+                max = dynaArr[i];
+            }
+        }
+        System.out.printf("\nMaximum element: %d", max);
+
         System.out.println();
         sc.close();
     }
