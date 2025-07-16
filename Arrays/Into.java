@@ -44,6 +44,13 @@ public class Into {
         for (int i = 0; i < dynaArr.length; i++) {
             System.out.printf("%d ", dynaArr[i]);
         }
+
+        // Sum of an Array:
+        int sum = 0;
+        for (int i = 0; i < dynaArr.length; i++) {
+            sum += dynaArr[i];
+        }
+        System.out.printf("\nSum of an elements : %d", sum);
         System.out.println();
         sc.close();
     }
