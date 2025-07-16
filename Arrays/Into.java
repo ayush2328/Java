@@ -26,6 +26,9 @@ public class Into {
 
         // way 2:
         int[] way2 = { 10, 20, 30, 40, 50 };
+
+        // how to get the size of an array:
+        System.out.println(way2.length);
         Scanner sc = new Scanner(System.in);
 
     }
