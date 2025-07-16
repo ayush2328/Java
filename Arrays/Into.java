@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.sound.midi.SysexMessage;
+
 public class Into {
 
     /*
@@ -8,7 +10,7 @@ public class Into {
      * 
      */
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
         // Ques : 01 - Create an array of size 10 containing integer.
 
         int[] arr = new int[10];
@@ -28,8 +30,21 @@ public class Into {
         int[] way2 = { 10, 20, 30, 40, 50 };
 
         // how to get the size of an array:
-        System.out.println(way2.length);
-        Scanner sc = new Scanner(System.in);
+        System.out.println("Size of an Array: " + way2.length);
 
+        // Dynamic Array:
+        System.out.printf("Enter the Size of an Array: ");
+        int size = sc.nextInt();
+        int[] dynaArr = new int[size];
+        System.out.printf("Enter the values of Array: ");
+        for (int i = 0; i < dynaArr.length; i++) {
+            dynaArr[i] = sc.nextInt();
+        }
+        // Output:
+        for (int i = 0; i < dynaArr.length; i++) {
+            System.out.printf("%d ", dynaArr[i]);
+        }
+        System.out.println();
+        sc.close();
     }
 }
