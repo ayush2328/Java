@@ -1,5 +1,3 @@
-package Questions;
-
 import java.util.Scanner;
 
 public class Ques2 {
