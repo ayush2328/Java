@@ -6,11 +6,34 @@ public class CountFactor {
     System.out.print("Enter a number: ");
     int num = sc.nextInt();
     int count = 0;
-    for(int i = 1; i <= num ; i++){
-        if(num % i == 0){
-            count++;
+    
+    /*
+     * Simple Count Factor with highest Time Complexity 
+    */
+    // for(int i = 1; i <= num ; i++){
+    //     if(num % i == 0){
+    //         count++;
+    //     }
+    // }
+  
+
+    /*
+     * Minimum Time Complexity
+     * program with (square root of n) complexity
+     * Big Omega(sqrt(n))
+     */
+    for(int i = 1; i*i <= num ; i++){
+        if (num % i == 0 ) {
+            if (i != num/i) {
+                count+=2;
+            }
+            else{
+                count++;
+            }
         }
     }
+
+    
     System.err.printf("Factor of %d and count is %d",num,count);
     System.err.println();
     sc.close();
