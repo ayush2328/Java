@@ -1,3 +1,4 @@
+import java.util.Scanner;
 // public class swap {
 //     public static void main(String[] args) {
 //         int a = 10;
@@ -13,7 +14,6 @@
 //     }
 
 // }
-import java.util.Scanner;
 
 // class swap {
 //     public static void main(String[] args) {
@@ -66,9 +66,12 @@ import java.util.Scanner;
 // }
 class Square {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("square of number 1 to 20 is = ");
         for (int i = 1; i <= 20; i++) {
             System.out.println(i + " = " + i * i);
         }
+        sc.close();
     }
+
 }
