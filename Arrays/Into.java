@@ -11,7 +11,7 @@ public class Into {
         Scanner sc = new Scanner(System.in);
         // Ques : 01 - Create an array of size 10 containing integer.
 
-        int[] arr = new int[10];
+        // int[] arr = new int[10];
 
         // indexing & properties
         // Ques : 02 - Create an array of length 5 with values 10 20 30 40 50
