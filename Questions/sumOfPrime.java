@@ -21,11 +21,17 @@ public class sumOfPrime {
 
         for (int i = 1; i <= n; i++) {
             if (isPrime(i)) {
+                System.err.print(i + " ");
+            }
+        }
+
+        for (int i = 1; i <= n; i++) {
+            if (isPrime(i)) {
                 sum += i;
             }
         }
 
-        System.out.println("Sum of prime numbers from 1 to " + n + " is: " + sum);
+        System.out.println("\nSum of prime numbers from 1 to " + n + " is: " + sum);
         sc.close();
     }
 }
