@@ -35,9 +35,12 @@ public class Into {
         int size = sc.nextInt();
         int[] dynaArr = new int[size];
         System.out.printf("Enter the values of Array: ");
+        
+        // Input from user
         for (int i = 0; i < dynaArr.length; i++) {
             dynaArr[i] = sc.nextInt();
         }
+        
         // Output:
         for (int i = 0; i < dynaArr.length; i++) {
             System.out.printf("%d ", dynaArr[i]);
